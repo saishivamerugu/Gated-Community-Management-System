@@ -19,8 +19,7 @@ public class Resident {
 
     public Resident() {}
 
-    public Resident(String username, String password, String email,
-                    String phone, String role, String roomNum) {
+    public Resident(String username, String password, String email, String phone, String role, String roomNum) {
         this.username = username;
         this.password = password;
         this.email = email;
@@ -29,8 +28,7 @@ public class Resident {
         this.roomNum = roomNum;
     }
 
-    public Resident(int resId, String username, String password,
-                    String email, String phone, String role, String roomNum) {
+    public Resident(int resId, String username, String password, String email, String phone, String role, String roomNum) {
         this.resId = resId;
         this.username = username;
         this.password = password;
@@ -98,3 +96,4 @@ public class Resident {
 
     
 }
+
