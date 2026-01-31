@@ -13,10 +13,8 @@ import org.hibernate.query.Query;
 public class ComplaintDao {
 
     public void saveComplaint1(Complaint complaint) {
-
         Session session = HibernateUtil.getSessionFactory().openSession();
         Transaction tx = session.beginTransaction();
-
         session.persist(complaint);
         tx.commit();
         session.close();
@@ -55,8 +53,7 @@ public class ComplaintDao {
     public List<Complaint> getAllComplaints() {
         Session session = HibernateUtil.getSessionFactory().openSession();
         List<Complaint> list =
-            session.createQuery("FROM Complaint ORDER BY complaintId DESC",
-                                Complaint.class).list();
+            session.createQuery("FROM Complaint ORDER BY complaintId DESC",Complaint.class).list();
         session.close();
         return list;
     }
@@ -75,3 +72,4 @@ public class ComplaintDao {
     }
 
 }
+
