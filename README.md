@@ -24,7 +24,7 @@ The system supports **role-based access** for **Residents** and **Admins**, enab
   - COMPLETED
 - Manage complaint lifecycle
 
----
+--- 
 
 ## 🧱 Tech Stack
 
