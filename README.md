@@ -6,7 +6,6 @@ The system supports **role-based access** for **Residents** and **Admins**, enab
 ---
 
 ## 📌 Features
-
 ### 👤 Resident
 - Secure login & logout
 - Register as a resident
