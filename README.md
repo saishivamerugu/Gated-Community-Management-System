@@ -131,8 +131,6 @@ VALUES ('admin', 'admin123', 'admin@gated.com', '9999999999', 'ADMIN', 'ADMIN');
 * Protected routes for Admin and Resident
 * Session invalidation on logout
 
-
-
 ## 👨‍💻 Developed By
 
 **Sai Shiva**
