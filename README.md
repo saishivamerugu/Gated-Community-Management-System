@@ -4,7 +4,7 @@ A web-based application developed using **JSP, Servlets, Hibernate, and MySQL** 
 The system supports **role-based access** for **Residents** and **Admins**, enabling smooth complaint handling and administration.
 
 ---
-
+ 
 ## 📌 Features
 ### 👤 Resident
 - Secure login & logout
