@@ -10,7 +10,7 @@ The system supports **role-based access** for **Residents** and **Admins**, enab
 - Secure login & logout
 - Register as a resident
 - Raise new complaints
-- View all submitted complaints
+- View all submitted complaints 
 - View solved complaints
 - View personal profile details
 
